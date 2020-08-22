@@ -4,7 +4,7 @@ Weather App
 This is project was created with the desire to learn ReactJS
 
 # Live Project
-# It should be deployed in a few days
+ It should be deployed in a few days
 
 # Development setup
 
