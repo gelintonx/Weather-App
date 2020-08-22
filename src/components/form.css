@@ -1,0 +1,78 @@
+body{
+    background-image:url('./weather.jpg') ;
+    color: #ffffff;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-family: 'Roboto Slab', serif;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    
+}
+
+form{
+    display: flex;
+    justify-content: center;
+
+}
+
+#cityInput{
+    width: 300px;
+    padding: 10px;
+    border: none;
+    outline:none;
+    border-radius: 30px;
+    -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 10px;
+    -moz-box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+    box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+}
+.form-elements{
+     margin-top: 200px;
+}
+
+#button{
+    color: #ffffff;
+    width: 120px;
+    height: 40px;
+    padding: 15px;
+    outline:none;
+    background-color: #5b68a7;
+    border:none;
+    border-radius: 15px;
+}
+
+
+#results-div{
+    color: #444444;
+    margin-top: 20px;
+    /*margin-left: 620px;
+    margin-right: 620px;*/
+    width: 100%;
+    border: 1px solid #4e4e4e;
+    border-radius: 50px;
+    background-color: #f5f5f5;
+    -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 10px;
+    -moz-box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+    box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+}
+
+
+
+/*#results-div:hover{
+    opacity: 0.5;
+}*/
+
+
+
+.results{
+    display: flex;
+    justify-content:center;
+    flex-flow: row-reverse;
+    
+}
+

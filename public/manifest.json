@@ -1,0 +1,11 @@
+{
+  "short_name": "Weather App",
+  "name": "Create simple app with react and openweather",
+  "icons": [
+   
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
